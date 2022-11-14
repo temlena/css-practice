@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: navy;
+    padding: 2.5em;
+    border-radius: 15px;
+}
+#likes{
+    margin: 0.6em;
+    color: skyblue;
+    font-weight: 600;
+    font: 1em sans-serif;
+    border: 2px solid black;
+    padding: 1.5em;
+}
+.my_likes{
+    color: plum;
+    font-weight: 200;
+    border: none;
+    padding: none;
+}
+#likes_list{
+    margin: 0.4em 0;
+}
+.li_list{
+    margin: 0;
+}
+#dislikes{
+    margin: 0.8em 0;
+    color: turquoise;
+    font-weight: 600;
+    font: 1em sans-serif;
+    border: 2px dotted;
+    padding: 1.5em;
+}
+.my_dislikes{
+    margin: 1.5em 0;
+    padding: 0;
+    border: none;
+}
+#dislike_list{
+    margin: 0.4em 0;
+}
+.dis_list{
+    margin: 0;
+}
+h1{
+    color: steelblue;
+}
